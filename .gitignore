@@ -1,0 +1,38 @@
+# Ambiente virtual
+venv/
+.env
+
+# Arquivos do Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Arquivos temporários e de log
+*.log
+*.pot
+*.pyc
+*.swp
+.DS_Store
+Thumbs.db
+
+# Banco de dados SQLite
+*.sqlite3
+
+# Arquivos do Django
+db.sqlite3
+/media
+/staticfiles
+*.mo
+
+# VS Code
+.vscode/
+
+# Migrações geradas (opcional ignorar se quiser manter no controle de versão)
+*/migrations/__pycache__/
+*/migrations/*.pyc
+# */migrations/  ← Descomente esta linha se quiser ignorar migrações completamente
+
+# Arquivos de cache
+*.cache
